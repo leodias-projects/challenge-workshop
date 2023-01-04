@@ -1,7 +1,7 @@
-# challenge-workshop
+# Challenge instructions 
 
 
-Move file from docker container to host 
+## Move file from docker container to host 
 
 
 docker compose up 
