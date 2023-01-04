@@ -100,7 +100,7 @@ def main():
     predictions = clf.predict(features_data_testing)
 
     accuracy = accuracy_score(class_data_testing, predictions)
-    print("The model accuracy was " + str(accuracy * 100) + "\% with the FFT data")
+    print("The model accuracy was " + str(accuracy * 100) + "% with the FFT data")
     # %%
     plt.figure(figsize=(12,8), tight_layout=True)
     cf_matrix = confusion_matrix(class_data_testing, predictions)
